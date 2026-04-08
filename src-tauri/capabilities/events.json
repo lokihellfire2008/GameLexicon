@@ -1,0 +1,10 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "events",
+  "description": "Allow frontend to listen for core events",
+  "windows": ["main"],
+  "permissions": [
+    "core:event:default",
+    "core:event:allow-listen"
+  ]
+}

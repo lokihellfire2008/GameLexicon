@@ -1,0 +1,16 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "http-igdb",
+  "description": "Allow HTTP to Twitch OAuth and IGDB APIs",
+  "windows": ["main"],
+  "permissions": [
+    {
+      "identifier": "http:default",
+      "allow": [
+        { "url": "https://id.twitch.tv/*" },
+        { "url": "https://api.igdb.com/*" },
+        { "url": "https://images.igdb.com/*" }
+      ]
+    }
+  ]
+}
